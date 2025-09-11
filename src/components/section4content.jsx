@@ -4,7 +4,7 @@ const Content = ({ section }) => {
   if (!section) return null;
 
   return (
-    <div className=" w-full grid grid-cols-1 md:grid-cols-2  md:w-3/4 p-6">
+    <div className=" w-full grid grid-cols-1 lg:grid-cols-2  md:w-3/4 p-6">
       <img
         src={section.image}
         alt={section.title}
