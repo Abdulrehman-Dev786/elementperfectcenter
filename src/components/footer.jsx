@@ -10,7 +10,7 @@ function Footer() {
         <div className="mb-10">
           <div className="flex items-start ">
             <div className="  bg-transparent">
-              <img src="public\footerlogo.PNG" alt="" />
+              <img src="footerlogo.PNG" alt="" />
             </div>
           </div>
           <p className="text-md leading-relaxed">
