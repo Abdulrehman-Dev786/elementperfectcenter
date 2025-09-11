@@ -28,7 +28,7 @@ function App() {
       <Section1 />
       <Section2 />
       <Section3 />
-      <div className="md:flex font-sans ">
+      <div className="md:flex font-sans mt-12">
         <Sidebar
           sections={sections}
           activeId={activeId}
@@ -38,7 +38,6 @@ function App() {
       </div>
       <Section5 />
       <Section6 />
-      {/* <Downslider/> */}
       <Section8 />
       <Section9 />
       <Footer />

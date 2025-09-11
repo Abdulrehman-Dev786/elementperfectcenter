@@ -4,13 +4,13 @@ const Content = ({ section }) => {
   if (!section) return null;
 
   return (
-    <div className=" w-full grid grid-cols-1 md:grid-cols-2 md:w-3/4 p-6">
+    <div className=" w-full grid grid-cols-1 lg:grid-cols-2 md:w-3/4 p-6">
       <img
         src={section.image}
         alt={section.title}
         className="rounded-md mb-6 w-80 h-[450px]"
       />
-      <div className="h-96  flex flex-col  justify-center">
+      <div className="h-96  ms-12 flex flex-col  justify-center">
         <h2 className="text-2xl font-bold text-gray-800 mb-2">
           {section.heading}
         </h2>
