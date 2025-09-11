@@ -11,7 +11,7 @@ function MainNavbar() {
 
           <img
             className="w-10 h-10 md:w-20 md:h-20"
-            src="mainlogo.PNG "
+            src="public\mainlogo.PNG"
             alt=""
           />
 
