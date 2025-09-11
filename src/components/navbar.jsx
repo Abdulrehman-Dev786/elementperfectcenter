@@ -11,8 +11,8 @@ function MainNavbar() {
 
           <img
             className="w-10 h-10 md:w-20 md:h-20"
-            src="mainlogo.PNG"
-            alt=""
+            src="mainlogo (1).png"
+            alt=" ElementPerfectCenter"
           />
 
           {/* Desktop Menu */}
