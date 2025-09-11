@@ -8,7 +8,7 @@ const Content = ({ section }) => {
       <img
         src={section.image}
         alt={section.title}
-        className="rounded-md mb-6 w-80 h-[450px]"
+        className="rounded-md mb-6 w-80 h-[380px]"
       />
       <div className="  flex flex-col  justify-center">
         <h2 className="text-2xl font-bold text-gray-800 mb-2">
