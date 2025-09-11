@@ -8,9 +8,9 @@ const Content = ({ section }) => {
       <img
         src={section.image}
         alt={section.title}
-        className="rounded-md mb-6 w-80 h-[450px]"
+        className="rounded-md  w-80 h-[450px]"
       />
-      <div className="h-96  ms-12 flex flex-col  justify-center">
+      <div className="h-96   flex flex-col  justify-center">
         <h2 className="text-2xl font-bold text-gray-800 mb-2">
           {section.heading}
         </h2>
