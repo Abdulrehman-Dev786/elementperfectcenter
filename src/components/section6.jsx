@@ -106,7 +106,7 @@ function Section6() {
       </div>
       <div className="flex mt-9 justify-center">
         <div className="rounded-md w-full flex flex-col items-center group">
-          <div className="flex items-center rounded-md w-[380px] md:w-[620px] border-b-4 border-orange-400 bg-blue-900 h-20 justify-between mb-3">
+          <div className="flex items-center rounded-md w-[350px] md:w-[620px] border-b-4 border-orange-400 bg-blue-900 h-20 justify-between mb-3">
             {/* Pehla span (number) */}
             <span
               id="number"
