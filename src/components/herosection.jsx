@@ -58,13 +58,13 @@ function Herosection() {
             <div className="mt-6 animate-on-load flex gap-4">
               <a
                 href="#services"
-                className=" reveal-text bg-orange-400 hover:bg-orange-400 text-white p-2  md:px-11 md:py-3 bordered font-semibold"
+                className=" reveal-text bg-orange-400 hover:bg-orange-400 text-white p-3 md:px-11 md:py-3 bordered font-semibold"
               >
                 Explore Services
               </a>
               <a
                 href="#contact"
-                className="  reveal-text border-[6px] border-white hover:bg-orange-600 hover:text-white text-orange-400 md:px-14 p-2 md:py-2 font-semibold"
+                className="  reveal-text border-[6px] border-white hover:bg-orange-600 hover:text-white text-orange-400 md:px-14 p-3 md:py-2 font-semibold"
               >
                 Book A Call
               </a>
