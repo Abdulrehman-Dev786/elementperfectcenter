@@ -15,7 +15,7 @@ function Section1(props) {
 
       {/* cards */}
 
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 p-8">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 p-8">
         <div
           id="card1"
           className="card relative shadow-md p-6  text-center overflow-hidden"
@@ -23,12 +23,12 @@ function Section1(props) {
           <img
             src="/step4.png"
             alt="Global service"
-            class="w-16 h-16 object-contain mx-auto mb-4"
+            className="w-16 h-16 object-contain mx-auto mb-4"
           />
-          <h3 class="text-xl font-semibold mb-2 text-blue-900">
+          <h3 className="text-xl font-semibold mb-2 text-blue-900">
             Global service
           </h3>
-          <p class="text-sm text-gray-600">
+          <p className="text-sm text-gray-600">
             Embrace the rhythm of progress in our modern world.
           </p>
         </div>
@@ -40,10 +40,10 @@ function Section1(props) {
           <img
             src="/step3.png"
             alt="24/7 Support"
-            class="w-16 h-16 object-contain mx-auto mb-4"
+            className="w-16 h-16 object-contain mx-auto mb-4"
           />
-          <h3 class="text-xl font-semibold mb-2 text-blue-900">24/7 Support</h3>
-          <p class="text-sm text-gray-600">
+          <h3 className="text-xl font-semibold mb-2 text-blue-900">24/7 Support</h3>
+          <p className="text-sm text-gray-600">
             Round-the-clock support for your success journey.
           </p>
         </div>
@@ -55,10 +55,10 @@ function Section1(props) {
           <img
             src="/step2.png"
             alt="Team support"
-            class="w-16 h-16 object-contain mx-auto mb-4"
+            className="w-16 h-16 object-contain mx-auto mb-4"
           />
-          <h3 class="text-xl font-semibold mb-2 text-blue-900">Team support</h3>
-          <p class="text-sm text-gray-600">
+          <h3 className="text-xl font-semibold mb-2 text-blue-900">Team support</h3>
+          <p className="text-sm text-gray-600">
             Empowering success with an awesome work team.
           </p>
         </div>
@@ -70,12 +70,12 @@ function Section1(props) {
           <img
             src="/step.png"
             alt="Changing Landscape"
-            class="w-16 h-16 object-contain mx-auto mb-4"
+            className="w-16 h-16 object-contain mx-auto mb-4"
           />
-          <h3 class="text-xl font-semibold mb-2 text-blue-900">
+          <h3 className="text-xl font-semibold mb-2 text-blue-900">
             Changing Landscape
           </h3>
-          <p class="text-sm text-gray-600">
+          <p className="text-sm text-gray-600">
             Stay ahead in the ever-changing landscape of the modern world.
           </p>
         </div>
