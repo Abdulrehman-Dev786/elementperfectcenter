@@ -7,7 +7,7 @@ const Sidebar = ({ sections, activeId, onSelect }) => {
         {sections.map((section) => (
           <li
             key={section.id}
-            className={`ps-3 w-[375px] md:w-[334px] py-3 cursor-pointer hover:bg-gray-100 transition ${
+            className={`ps-3 w-[345px] md:w-[334px] py-3 cursor-pointer hover:bg-gray-100 transition ${
               activeId === section.id ? "bg-orange-100 text-orange-600 border-r-2 border-orange-600 font-semibold" : ""
             }`}
             onClick={() => onSelect(section.id)}
