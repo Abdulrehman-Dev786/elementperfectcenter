@@ -4,7 +4,7 @@ const Content = ({ section }) => {
   if (!section) return null;
 
   return (
-    <div className="flex md:w-3/4 p-6">
+    <div className="md:flex md:w-3/4 p-6">
       <img
         src={section.image}
         alt={section.title}
