@@ -2,7 +2,7 @@ import React from "react";
 
 const Sidebar = ({ sections, activeId, onSelect }) => {
   return (
-    <div className="flex w-full  md:w-1/4 bg-white border-r md:min-h-screen">
+    <div className="flex w-full  md:w-1/4 bg-white  md:min-h-screen">
       <ul>
         {sections.map((section) => (
           <li
