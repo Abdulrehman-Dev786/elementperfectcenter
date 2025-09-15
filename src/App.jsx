@@ -28,7 +28,7 @@ function App() {
       <Section1 />
       <Section2 />
       <Section3 />
-      <div className="md:flex font-sans mt-12">
+      <div className="md:flex font-sans mb-5 mt-12">
         <Sidebar
           sections={sections}
           activeId={activeId}
