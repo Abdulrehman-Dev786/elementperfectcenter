@@ -4,18 +4,18 @@ const Content = ({ section }) => {
   if (!section) return null;
 
   return (
-    <div className=" grid grid-cols-1 lg:grid-cols-2 md:w-3/4 p-6">
+    <div className="flex md:w-3/4 p-6">
       <img
         src={section.image}
         alt={section.title}
         className="rounded-md  w-80 h-[450px]"
       />
-      <div className="h-96   flex flex-col  justify-center">
-        <h2 className="text-2xl font-bold text-gray-800 mb-2">
+      <div className="h-96   flex flex-col  p-4 items-start justify-center">
+        <h2 className="text-2xl font-bold text-[#133963] font-serif mb-2">
           {section.heading}
         </h2>
         <p className="text-gray-600 mb-4">{section.description}</p>
-        <h3 className="text-xl font-semibold text-gray-800 mb-1">
+        <h3 className="text-2xl font-bold text-[#133963] font-serif mb-2">
           {section.toolsTitle}
         </h3>
         <p className="text-gray-600">{section.toolsDesc}</p>
